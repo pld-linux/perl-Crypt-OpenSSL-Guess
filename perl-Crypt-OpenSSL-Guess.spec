@@ -15,7 +15,6 @@ Group:		Development/Languages/Perl
 Source0:	https://cpan.metacpan.org/authors/id/A/AK/AKIYM/%{pdir}-%{pnam}-0.11.tar.gz
 # Source0-md5:	e768fe2c07826b0ac9ea604c79f93032
 URL:		http://search.cpan.org/dist/Crypt-OpenSSL-Guess/
-BuildRequires:	openssl-devel >= 0.9.7d
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
