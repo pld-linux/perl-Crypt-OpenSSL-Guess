@@ -8,7 +8,7 @@ Summary:	Crypt::OpenSSL::Guess - Guess OpenSSL include path
 Summary(pl.UTF-8):	Crypt::OpenSSL::Guess - zgadywanie ścieżki nagłówków OpenSSL
 Name:		perl-Crypt-OpenSSL-Guess
 Version:	0.13
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -22,6 +22,7 @@ BuildRequires:	perl-Test-Simple >= 0.98
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
