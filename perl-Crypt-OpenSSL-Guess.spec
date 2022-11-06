@@ -1,19 +1,19 @@
 #
 # Conditional build:
-%bcond_without	tests	# Do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Crypt
 %define		pnam	OpenSSL-Guess
 Summary:	Crypt::OpenSSL::Guess - Guess OpenSSL include path
 Summary(pl.UTF-8):	Crypt::OpenSSL::Guess - zgadywanie ścieżki nagłówków OpenSSL
 Name:		perl-Crypt-OpenSSL-Guess
-Version:	0.13
-Release:	2
+Version:	0.15
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a126716a88c9e16ef5b9e4216820d322
+# Source0-md5:	e07f470dd25023730cf8536e0cefbabd
 URL:		https://metacpan.org/dist/Crypt-OpenSSL-Guess
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.64
 %if %{with tests}
